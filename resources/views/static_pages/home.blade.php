@@ -1,5 +1,12 @@
 @extends('layouts.default')
 @section('title', '主页')
 @section('content')
-    <h5>主页</h5>
+    <div class="jumbotron">
+        <h1>Hello Laravel</h1>
+        <p class="lead">
+            您看到的是<a href="#">Laravel框架项目</a>
+        </p>
+        <p>一切，将从这里开始</p>
+        <p><a class="btn btn-lg btn-success" href="{{ route('signup') }}">现在注册</a></p>
+    </div>
 @stop
